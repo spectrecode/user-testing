@@ -13,6 +13,20 @@
     background-size: cover;
     position: relative;
 }
+.navbar-brand {
+	color: #01a2e2;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	text-decoration: none;
+    background-color: rgba(16, 56, 144, 0.86);
+    color: white;
+    font-weight: bold;
+}
+
+header a,strong {
+	color: white;
+}
 
 #banner:before{
 	content: "";
@@ -91,23 +105,14 @@ h2 {
 
 #servicios {
 	padding-bottom: 5%;
-	border-bottom: 1px solid #b6cdf5;
 }
 
-.hr {
-	background-image: url("../image/separador.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 95px;
+.separador {
 	position: relative;
+    top: 68px;
 }
 
 /* article #uso */
-
-#uso {
-	border-bottom: 1px solid #b6cdf5;
-	padding-bottom: 8%;
-}
 
 .logo {
 	width: 50%;
@@ -126,10 +131,9 @@ h2 {
 	border-bottom: 1px solid #b6cdf5;
 }
 
-/* article why */
-
 .pedido {
 	padding: 0%;
+	position: relative;
 }
 
 .sec {
@@ -138,7 +142,7 @@ h2 {
     background-position-x: 1%;
     background-size: cover;
     position: relative;
-    height: 427px;
+    height: 460px;
 }
 
 .sec:before{
@@ -152,10 +156,8 @@ h2 {
 	background: rgba(60, 76, 80, 0.65);
 }
 
-.pasos ul li,
- #why ul li  {
-	margin-left: 4%;
-	line-height: 30px;
+.pasos {
+	padding-left: 4%;
 }
 
 .pasos h4 {
@@ -164,8 +166,37 @@ h2 {
 	padding-top: 4%;
 }
 
+.content-icon {
+	position: absolute;
+    line-height: 11;
+    left: 47%;
+    right: 50%;	
+}
+
+#uso .icono {
+	background-color: #43b3ff;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 13px;
+    color: white;
+}
+
+
+
+/* article why */
+
+.pasos ul li,
+ #why ul li  {
+	margin-left: 4%;
+	line-height: 30px;
+}
+
 .banner {
 	width: 100%;
+}
+
+#why {
+	padding-top: 5%;
 }
 
 #why .franja {
