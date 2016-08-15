@@ -63,10 +63,10 @@
 /* section */
 /* article servicios */
 #servicios .row {
-	padding: 8% 5%;
+	padding: 8% 5% 1% 5%;
 }
 
-#servicios h2 {
+h2 {
 	color: #57B5FD;
 	margin-bottom: 5%;
 }
@@ -88,3 +88,106 @@
 #servicios h3 {
 	color: #061A53;
 }
+
+#servicios {
+	padding-bottom: 5%;
+	border-bottom: 1px solid #b6cdf5;
+}
+
+.hr {
+	background-image: url("../image/separador.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 95px;
+	position: relative;
+}
+
+/* article #uso */
+
+#uso {
+	border-bottom: 1px solid #b6cdf5;
+	padding-bottom: 8%;
+}
+
+.logo {
+	width: 50%;
+}
+
+.flecha {
+	padding: 2% 40%;
+}
+
+.video {
+	width: 100%;
+}
+
+#uso .ejemplo {
+	padding:7% 0% 7% 0%;
+	border-bottom: 1px solid #b6cdf5;
+}
+
+/* article why */
+
+.pedido {
+	padding: 0%;
+}
+
+.sec {
+	background-image: url("../image/sec-2.jpg");
+	background-position: center;
+    background-position-x: 1%;
+    background-size: cover;
+    position: relative;
+    height: 427px;
+}
+
+.sec:before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(60, 76, 80, 0.65);
+}
+
+.pasos ul li,
+ #why ul li  {
+	margin-left: 4%;
+	line-height: 30px;
+}
+
+.pasos h4 {
+	color: #49A6EE;
+	font-size: 15px;
+	padding-top: 4%;
+}
+
+.banner {
+	width: 100%;
+}
+
+#why .franja {
+	margin-top: 10%;
+}
+
+/* footer contacto */
+
+footer {
+	background-color: #101a29;
+	padding: 3% 0% 2%;
+	color: white;
+	line-height: 2.5;
+}
+
+.icon {
+	font-size: 35px;
+	padding-left: 5%;
+}
+
+footer a:hover,
+footer a:focus {
+	text-decoration: none;
+}
+
