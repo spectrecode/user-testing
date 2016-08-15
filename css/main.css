@@ -1,0 +1,90 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* HEADER */
+
+#banner {
+	background-image: url("../image/large.jpg");
+	background-position: center;
+    background-position-y: 0%;
+    background-size: cover;
+    position: relative;
+}
+
+#banner:before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(80, 98, 119, 0.53);
+}
+
+/* titulo principal */
+
+.principal {
+	background-color: transparent;
+	color: white;
+	position: relative;
+	padding: 18% 18% 5%;
+}
+
+.jumbotron h1 {
+	font-size: 43px;
+}
+
+/* franja oferta */
+
+.franja {
+    background-color: rgba(34, 131, 251, 0.85);
+    color: white;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+}
+
+.franja .btn {
+	background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4%;
+    font-size: 22px;
+    margin: 4% 0% 4% 2%;
+}
+
+.franja .prueba {
+	padding-left: 30%;
+	line-height: 0.5;
+}
+
+/* section */
+/* article servicios */
+#servicios .row {
+	padding: 8% 5%;
+}
+
+#servicios h2 {
+	color: #57B5FD;
+	margin-bottom: 5%;
+}
+
+#servicios .icon {
+	font-size: 40px;
+	color: #49A6EE;
+}
+
+#servicios .badge {
+	border-radius: 50%;
+    padding: 15%;
+    background-color: transparent;
+	-webkit-box-shadow: -3px 4px 11px -2px rgba(9, 31, 58, 0.5);
+	margin-bottom: 5%;
+	margin-bottom: 15%;
+}
+
+#servicios h3 {
+	color: #061A53;
+}
